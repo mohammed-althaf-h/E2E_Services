@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
-import { useToast } from '@/components/ui/use-toast';
+import { Button } from '@/ui/button';
+import { Input } from '@/ui/input';
+import { Textarea } from '@/ui/textarea';
+import { Label } from '@/ui/label';
+import { useToast } from '@/ui/use-toast';
 
 const Contact = () => {
   const { toast } = useToast();
