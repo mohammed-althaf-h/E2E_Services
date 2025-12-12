@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, useSpring, useTransform } from 'framer-motion';
 import { ArrowRight, ShieldCheck, UserCheck, Lock } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 
 // Helper component for animated numbers
 const AnimatedNumber = ({ value, suffix = '' }) => {
