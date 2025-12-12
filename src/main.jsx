@@ -6,7 +6,7 @@ import App from '@/App';
 import '@/index.css';
 
 // If you created the ThemeProvider file:
-import { ThemeProvider } from '@/providers/ThemeProvider';
+import { ThemeProvider } from '@/src/ThemeProvider';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
