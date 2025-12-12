@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Home from '@/pages/Home';
 import GalleryPage from '@/pages/GalleryPage';
 import Footer from '@/components/Footer';
-import { Toaster } from '@/components/ui/toaster';
+import { Toaster } from '@/ui/toaster';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
 function App() {
