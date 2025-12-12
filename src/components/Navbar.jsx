@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '@/components/ThemeProvider';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 
 const Navbar = () => {
