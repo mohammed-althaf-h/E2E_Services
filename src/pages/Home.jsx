@@ -4,7 +4,7 @@ import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import Resources from '@/components/Resources';
 import Contact from '@/components/Contact';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/ui/button';
 import { ArrowRight, Image as ImageIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
